@@ -1,0 +1,20 @@
+.top-nav{
+    background-color: rgb(0, 0, 0);
+}
+.custom-link{
+    color: rgb(17, 174, 202);
+    font-size: 25px;
+}
+.navbar-brand{
+    color: rgb(17, 174, 202);
+    font-size: 25px;
+}
+.custom-nav{
+    background-color: rgb(46, 46, 46) !important;
+}
+.dropdown-menu{
+    background-color: rgb(0, 0, 0) !important;
+}
+.custom-dropdown{
+    background-color: rgb(221, 76, 9) !important;
+}
