@@ -7,8 +7,8 @@ const Nav = () => {
       <div className="container-fluid top-nav">
         <div className="row align-items-center">
           <div className="col-md-3 d-flex">
-            <Link className="navbar-brand" to="#">
-              <img src="./images/13.jpg" alt="" className="img-fluid" style={{ width: "150px" }} />
+            <Link className="navbar-brand" to="/">
+              <img src="./img/rgr_200.png" alt="" className="img-fluid" style={{ width: "50px" }} />
             </Link>
             <div className="d-flex align-items-center">
               <div><i className='bx bx-current-location text-white custom-link'></i></div>
@@ -43,37 +43,20 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active text-danger" aria-current="page" to="#">Home</Link>
+                <Link className="nav-link active text-white" aria-current="page" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-danger" to="#">Gallery</Link>
-              </li>
-              <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle text-danger" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Materials used
-                </Link>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><Link className="dropdown-item text-danger" to="#">BLACK-INK</Link></li>
-                  <li><Link className="dropdown-item text-danger" to="#">COLOURED-INK</Link></li>
-                  <li><Link className="dropdown-item text-danger" to="#">PENCIL-SHADING</Link></li>
-                </ul>
-              </li>
-
-              <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle text-danger" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </Link>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><Link className="dropdown-item text-danger" to="#">Concept Art</Link></li>
-                  <li><Link className="dropdown-item text-danger" to="#">Comic Art</Link></li>
-                  <li><Link className="dropdown-item text-danger" to="#">Fan Art</Link></li>
-                  <li><Link className="dropdown-item text-danger" to="#">Sticker</Link></li>
-                  <li><Link className="dropdown-item text-danger" to="#">Graffiti</Link></li>
-
-                </ul>
+                <Link className="nav-link text-white" to="/deals">Deals</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-danger" to="#">Contact Us</Link>
+                <Link className="nav-link text-white" to="#">Customers Services</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="#">Registry</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link text-white" to="#">Contact Us</Link>
               </li>
             </ul>
 
