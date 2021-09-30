@@ -7,7 +7,7 @@ const Footer = () => {
           <footer className="container-fluid py-5">
   <div className="row">
     <div className="col-12 col-md">
-      <small className="d-block mb-3 text-muted">NisanInk &copy; 2021</small>
+      <small className="d-block mb-3 text-muted">Gurkhashop &copy; 2021</small>
     </div>
     <div className="col-6 col-md">
       <h5>Features</h5>

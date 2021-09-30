@@ -8,12 +8,13 @@ const Nav = () => {
         <div className="row align-items-center">
           <div className="col-md-3 d-flex">
             <Link className="navbar-brand" to="/">
-              <img src="./img/rgr_200.png" alt="" className="img-fluid" style={{ width: "50px" }} />
+              <img src="./img/rgr_200.png" alt="" className="img-fluid" style={{ width: "80px" }} />
             </Link>
             <div className="d-flex align-items-center">
-              <div><i className='bx bx-current-location text-white custom-link'></i></div>
               <div><p style={{ color: '#CCCCCC', fontSize: '12px',marginBottom:"-5px" }}>From</p>
-                <span style={{ color: "white", fontWeight: 'bold' }}>NEPAL</span>
+                <span style={{ color: "white", fontWeight: 'bold' }}>NEPAL</span><br/>
+                <span style={{ color: "white", fontWeight: 'bold' }}>Fair and Transparent</span>
+                
               </div>
             </div>
           </div>
@@ -25,8 +26,8 @@ const Nav = () => {
           </div>
           <div className="col-md-2">
             <ul className="d-flex justify-content-end">
-              <li className="list-unstyled"><Link to="#" className="text-decoration-none px-2 custom-link"><i className='bx bxs-user' ></i></Link></li>
-              <li className="list-unstyled"><Link to="#" className="text-decoration-none px-2 custom-link"><i className='bx bxs-user-plus' ></i></Link></li>
+              <li className="list-unstyled"><Link to="/signin" className="text-decoration-none px-2 custom-link"><i className='bx bxs-user' ></i></Link></li>
+              <li className="list-unstyled"><Link to="/signup" className="text-decoration-none px-2 custom-link"><i className='bx bxs-user-plus' ></i></Link></li>
               <li className="list-unstyled"><Link to="#" className="text-decoration-none px-2 custom-link"><i className='bx bxs-cart-add' ></i></Link></li>
 
 
@@ -49,7 +50,7 @@ const Nav = () => {
                 <Link className="nav-link text-white" to="/deals">Deals</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="#">Customers Services</Link>
+                <Link className="nav-link text-white" to="/customerservices">Customers Services</Link>
               </li>
 
               <li className="nav-item">
