@@ -50,19 +50,19 @@ const Trending = () => {
           <img src="./images/R-12621226-1538820121-2460.jpeg.jpg" className="img-fluid custom-slide" alt=""/>
           </div>
           <div>
-          <img src="./images/Image (382).jpg" className="img-fluid custom-slide" alt=""/>
+          <img src="./images/1.jpg" className="img-fluid custom-slide" alt=""/>
           </div>
           <div>
-          <img src="./images/sailor.gif" className="img-fluid custom-slide" alt=""/>
+          <img src="./images/2.gif" className="img-fluid custom-slide" alt=""/>
           </div>
           <div>
-          <img src="./images/Ronin.gif" className="img-fluid custom-slide" alt=""/>
+          <img src="./images/3.gif" className="img-fluid custom-slide" alt=""/>
           </div>
           <div>
-          <img src="./images/SwordDraw.gif" className="img-fluid custom-slide" alt=""/>
+          <img src="./images/4.gif" className="img-fluid custom-slide" alt=""/>
           </div>
           <div>
-          <img src="./images/Fight.gif" className="img-fluid custom-slide" alt=""/>
+          <img src="./images/6.gif" className="img-fluid custom-slide" alt=""/>
           </div>
           <div>
           <img src="./images/GarbageDemon.gif" className="img-fluid custom-slide" alt=""/>

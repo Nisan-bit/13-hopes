@@ -11,7 +11,7 @@ const Home = () => {
             <Nav/>
             <Carousel/>
             <Card/>
-            <Trending/>
+            {/* <Trending/> */}
             <Footer/>
         </>
     )
