@@ -9,12 +9,12 @@ const Deals = () => {
             <Nav/>
 
 <div className="container-fluid">
-    <div className="row">
+    <div className="row md-2"style={{backgroundColor:'#f5f5f5'}}>
         <h3>Deals and Promotions</h3>
         <span>Shop Today's Deals, Lightining and limited time discount</span>
 
         <DealsSidebar/>
-        <div className="col-md-10">
+        <div className="col-md-10"style={{backgroundColor:'lightgray'}}>
             <Card/>
         </div>
     </div>

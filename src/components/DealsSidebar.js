@@ -20,7 +20,7 @@ const DealsSidebar = () => {
 
                     <div className="form-check">
                     <input className="form-check-input" type="checkbox" value=""/>
-                    <label className="form-check-label">Camera & photo</label>
+                    <label className="form-check-label">Music Albums</label>
                     
                     </div>
                     <div className="form-check">

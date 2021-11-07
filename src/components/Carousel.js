@@ -6,17 +6,17 @@ const Carousel = () => {
       <div id="carouselExampleFade" class="carousel slide carousel-fade mt-2" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/109879_slice.jpg" class="d-block w-100" alt="..." style={{ height: '550px' }} />
+            <img src="./images/1.jpg" class="d-block w-100" alt="..." style={{ height: '550px' }} />
           </div>
           <div class="carousel-item">
-            <img src="./img/104587_slice.jpg" class="d-block w-100" alt="..." style={{ height: '550px' }} />
+            <img src="./images/2.jpg" class="d-block w-100" alt="..." style={{ height: '550px' }} />
           </div>
 
           <div class="carousel-item">
-            <img src="./img/britishgurkha.jpg" class="d-block w-100" alt="..." style={{ height: '550px' }} />
+            <img src="./images/5.jpg" class="d-block w-100" alt="..." style={{ height: '550px' }} />
           </div>
           <div class="carousel-item">
-            <img src="./img/4684858121_05613b6b08_z.jpg" class="d-block w-100" alt="..." style={{ height: '550px' }} />
+            <img src="./images/3.jpg" class="d-block w-100" alt="..." style={{ height: '550px' }} />
           </div>
 
         </div>

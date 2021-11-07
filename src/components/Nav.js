@@ -50,7 +50,7 @@ const Nav = () => {
                 <Link className="nav-link text-white" to="/deals">Deals</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="/customerservices">Customers Services</Link>
+                <Link className="nav-link text-white" to="/customerservices">Payment & Services</Link>
               </li>
 
               <li className="nav-item">

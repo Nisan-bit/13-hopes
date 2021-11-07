@@ -47,7 +47,7 @@ const Trending = () => {
 
         <Slider {...settings}>
           <div>
-          <img src="./images/Image (400).jpg" className="img-fluid custom-slide" alt=""/>
+          <img src="./images/R-12621226-1538820121-2460.jpeg.jpg" className="img-fluid custom-slide" alt=""/>
           </div>
           <div>
           <img src="./images/Image (382).jpg" className="img-fluid custom-slide" alt=""/>
