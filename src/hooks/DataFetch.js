@@ -4,6 +4,7 @@ import axios from 'axios'
 const DataFetch = () => {
     
 const[posts,setPost]=useState([])
+const[limit,setlimit]=useState(20) 
     useEffect(()=>{
         axios.get('https://jsonplaceholder.typicode.com/posts')
         .then((res)=>{
@@ -14,9 +15,10 @@ const[posts,setPost]=useState([])
     })
     return (
         <>
-            {posts.map((item)=>(
+            {posts.slice(0,limit).map((item)=>(
              <li key={item.id}>{item.title}</li>   
             ))}
+            {limit<posts.length && <button onClick={()=>setlimit(limit+20)}>Load</button>}
         </>
     )
 }

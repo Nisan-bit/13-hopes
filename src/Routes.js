@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import DataFetch from './hooks/DataFetch'
 import Increment from './hooks/Increment'
+import Main from './hooks/Main'
 import Test from './hooks/Test'
 import Signin from './pages/auth/Signin'
 import Signup from './pages/auth/Signup'
@@ -25,6 +26,7 @@ const Routes = () => {
                     <Route exact path="/hooks/increment" component={Increment}/>
                     <Route exact path="/hooks/useEffect" component={Test}/>
                     <Route exact path="/api/data" component={DataFetch}/>
+                    <Route exact path="/main"component={Main}/>
                 </Switch>
             </Router>
         </>
